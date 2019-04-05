@@ -3,15 +3,19 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #a0a6ad;
+  color: #a0a6ad !important ;
   font-size: 14px;
   font-weight: 400;
-  background-image: linear-gradient(-45deg, #7F00FF, rgb(255, 104, 4));
-  overflow-x: hidden;
+  background-color:#ec2c47;
+  background-repeat: no-repeat;
+  height:500vh; 
+  
 }
 
 html {
   overflow-x: hidden;
+  overflow: hidden;
+
 }
 
 p {
@@ -38,7 +42,7 @@ h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 38px;
   font-weight: 700;
-  color: hsl(0, 0%, 100%);
+  color:black;
 }
 h5{
   color:black;
@@ -388,18 +392,21 @@ textarea {
   margin-top: 5px;
   font-size: 18px;
   font-weight: 500;
+  color:black;
 }
 
 .contact-info p {
   font-size: 14px;
   margin-bottom: 0;
+
 }
 
 #contact {
-  background-image: linear-gradient(-45deg, #7F00FF, rgb(255, 104, 4));
+  /* background-image: linear-gradient(-45deg, #7F00FF, rgb(255, 104, 4)); */
   padding-bottom: 80px;
   position: relative;
   text-align: center;
+  color:black;
   
 }
 
@@ -407,10 +414,11 @@ textarea {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
+  color:black;
 }
 
 #contact .contact-block {
-  background: rgba(0, 0, 0,1);
+  background: rgb(255, 255, 255);
   overflow: hidden;
   padding: 30px;
   border-radius: 5px;
@@ -422,6 +430,7 @@ textarea {
 
 #google-map-area {
   position: relative;
+
   
 }
 
@@ -436,3 +445,9 @@ textarea {
 }
 
 
+.submit-button{
+  margin-top:5%;
+}
+.map{
+  height:50vh;
+}
